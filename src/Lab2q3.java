@@ -14,10 +14,10 @@ public class Lab2q3 {
 	         System.out.println("Please enter mark no " + i);
 	         double mark = scanner.nextDouble(); // Read the mark input from the user
 	         totalMark += mark;
-	         System.out.println("Mark: " + mark + " has been inserted");
+	         System.out.println("Mark: " + mark + " has been inserted" + "/n");
 	     }
 	     
-	     System.out.println("Total mark is: " + totalMark);
+	     System.out.println("Total mark is: " + totalMark );
 
 	     scanner.close(); // Close the Scanner object to prevent resource leak
 	}

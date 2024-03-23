@@ -36,7 +36,7 @@ class MyReader extends FileReader
 		MyReader reader = new MyReader("Welcome.txt");
 		System.out.println(reader.readContent());
 
-	   File file = new File("Welcome.txt");
+	    File file = new File("Welcome.txt");
 		MyReader reader2 = new MyReader(file);
 		System.out.println(reader2.readContent());
 	}
